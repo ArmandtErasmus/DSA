@@ -7,7 +7,7 @@ The pointers essentially iterate over an array. This pattern is useful when:
 - You want to rearrange/remove elements in-place
 - You want to search for pairs in a sorted array (possibly to satisfy some condition)
 
-Example:
+### Example:
 Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
 
 Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
@@ -16,7 +16,7 @@ The tests are generated such that there is exactly one solution. You may not use
 
 Your solution must use only constant extra space.
 
-Solution:
+### Solution:
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
